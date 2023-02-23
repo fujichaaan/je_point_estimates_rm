@@ -16,25 +16,25 @@ This letter is inspired by the previous correspondence by Hosseinpoor AR in <i>L
 
 ## 2. Purpose 🕵️
 There are two main purposes in this letter:
-- to provide what is not good in conventional graphic presentation
-- to provide how to improve such incautious figures
+- To provide what is not good in conventional graphic presentation in relative measures for association
+- To provide how to improve such incautious figures
 
 <br>
 
 ## 3. Key messages 🔑  R code is <a href="https://github.com/fujichaaan/je_point_estimates_rm/blob/main/code_figures.R">here</a>
-To show the point estimates for relative measures, there are three main key messages as follows:
+To show the point estimates for relative measures in association, there are three main key points to be considered as follows:
 
 ![Figure1](https://user-images.githubusercontent.com/19466700/220636651-3529c453-cf69-43b7-a604-fb80acf0cedb.jpg)
 
 ### 1. Starting from 1 (A vs. B)
-In panel A, OR=2.0 seems to be fourth bigger than OR=0.5, while panel B shows each bar graph start from 1.
-It is much better than the the 0-starting bar chars, but still problematic...
+In panel A (starting from 0), OR=2.0 seems to be four times bigger than OR=0.5, while panel B shows each bar graph start from 1.
+It is much better than the the 0-starting bar chars, but panel B is still problematic...
 
 <br>
 
 ### 2. Use logarithmic scale (B vs. C)
 In panel B, OR=2.0 seems to be twice bigger than OR=0.5, but panel C improve the magnitude of effect size.
-Therefore, although it can make fair comparison for OR=2.0 and OR=0.5, it is unclear for statistical significance yet.
+Therefore, although it can make fair comparison for OR=2.0 and OR=0.5 (different direction), it is unclear for statistical significance yet.
 
 <br>
 
