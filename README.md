@@ -10,7 +10,7 @@ This page is for summarizing code and figures for the letter published in the <i
 
 ## 1. Motivation 🌱
 The relative measures (e.g. odds ratio and hazard ratio) are one of the most reported indices in statistical analysis for epidemiology. However, there are many incautious graphic presentation for these indices in both scientific papers and dissemination to the public.
-This letter is inspired by the previous correspondence by in <i>Lancet</i>
+This letter is inspired by the previous correspondence by Hosseinpoor AR in <i>Lancet</i>
 
 <br>
 
