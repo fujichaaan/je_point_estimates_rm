@@ -84,7 +84,7 @@ The results are shown here:
 To show the point estimates for relative measures in association, there are three main key points to be considered as follows.
 R codes for these plots are <a href="https://github.com/fujichaaan/je_point_estimates_rm/blob/main/code_figures.R">here</a>
 
-![Figure1](https://user-images.githubusercontent.com/19466700/220636651-3529c453-cf69-43b7-a604-fb80acf0cedb.jpg)
+![Figure1](https://user-images.githubusercontent.com/19466700/223476002-f9903390-2dc3-40d4-a96d-bbd6acd3a440.png)
 
 ### 1. Starting from 1 (A vs. B)
 In panel A (starting from 0), OR=2.0 seems to be four times bigger than OR=0.5, while panel B shows each bar graph start from 1.
