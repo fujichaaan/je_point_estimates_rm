@@ -1,7 +1,7 @@
 # je_point_estimates_rm
 This page is for summarizing code and figures for the letter published in the <i>Journal of Epidemiology</i> (Fujii R. 2023).
 
-# Fujii R. Visualization in relative measures of association: points and error bars. Journal of Epidemiology, 2023.
+# Fujii R. Visualization in relative measures of association: points and error bars. Journal of Epidemiology, 2023 (Submitted).
 
 (Insert of Image)
 <br>
