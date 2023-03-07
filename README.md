@@ -10,19 +10,81 @@ This page is for summarizing code and figures for the letter published in the <i
 
 ## 1. Motivation 🌱
 The relative measures (e.g. odds ratio and hazard ratio) are one of the most reported indices in statistical analysis for epidemiology. However, there are many incautious graphic presentation for these indices in both scientific papers and dissemination to the public.
-This letter is inspired by the previous correspondence by Hosseinpoor AR in <i>Lancet</i>
 
 <br>
 
 ## 2. Purpose 🕵️
 There are two main purposes in this letter:
-- To provide what is not good in conventional graphic presentation in relative measures for association
-- To provide how to improve such incautious figures
+- To summarize the current situation of graphcal presentation in the journals
+- To revisit the points to be considered in Figures
 
 <br>
 
-## 3. Key messages 🔑  R code is <a href="https://github.com/fujichaaan/je_point_estimates_rm/blob/main/code_figures.R">here</a>
-To show the point estimates for relative measures in association, there are three main key points to be considered as follows:
+## 3. Literature review　 🖥
+Breif literature review was performed in the articles published in the following journals between April 2022 and March 2023.
+
+- The American Jounral of Epidemiology
+- The European Journal of Epidemiology
+- The International Journal of Epidemiology
+- The Journal of Epidemiology
+
+The results are shown here:
+
+<br>
+
+ <table>
+    <tr>
+      <th>Journals</th>
+      <th>Axis starting from 0</th>
+      <th>Axis with an arithmetic scale</th>
+      <th>Bar + error bars</th>
+      <th>Undetermined</th>
+      <th>Appropriate</th>
+      <th>N of papers presenting figures</th>
+    </tr>
+    <tr>
+      <td>Am J Epi</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Int J Epi</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Eur J Epi</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>J Epi</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+
+<br>
+
+## 4. Key Tips 🔑 
+To show the point estimates for relative measures in association, there are three main key points to be considered as follows.
+R codes for these plots are <a href="https://github.com/fujichaaan/je_point_estimates_rm/blob/main/code_figures.R">here</a>
 
 ![Figure1](https://user-images.githubusercontent.com/19466700/220636651-3529c453-cf69-43b7-a604-fb80acf0cedb.jpg)
 
@@ -44,7 +106,16 @@ To improve this defect, the panel D shows better data visualization for relative
 
 <br>
 
-## 4. Inquires　📨
+## 5. Examples for relative measures 🤼
+Here we prepare codes for more practical examples for relative measures including point estimates and others.
+Please check <a href="https://github.com/fujichaaan/je_point_estimates_rm/blob/main/code_figures.R">here</a>
+
+## 6. References 📚
+
+
+<br>
+
+## 7. Inquires　📨
 If you have any questions, please feel free to contact me 😎
 
 <b>Ryosuke FUJII, PhD.</b><br>
