@@ -104,19 +104,19 @@ To improve this defect, the panel D shows better data visualization for relative
 
 ## 5. More practical examples 🤼
 Here we prepare codes for more practical examples for relative measures including point estimates and others.
-Please check <a href="https://github.com/fujichaaan/je_point_estimates_rm/blob/main/code_practices.R">here</a>
+Please check R codes <a href="https://github.com/fujichaaan/je_point_estimates_rm/blob/main/code_practices.R">here</a>
 
-### 1. Point estimates for each variables in regression analyses
+### 1. Point estimates for each variables in regression analyses (using R "forplo" package)
 
 ![PRAC1](https://user-images.githubusercontent.com/19466700/223471763-e969ec6c-b6b4-43bc-94f9-d7a916058554.jpeg)
 
 
-### 2. Forest plots for summarizing previous studies
+### 2. Forest plots for summarizing previous studies (using R "forplo" package)
 
 ![PRAC2](https://user-images.githubusercontent.com/19466700/223471819-af080dfc-0f26-44f7-b371-f4f994d2ae70.jpeg)
 
 
-### (3. Non-linear association between exposure and binary outcomes)
+### (3. Non-linear association between exposure and binary outcomes) (using R "ggplot2" package)
 
 ![PRAC3](https://user-images.githubusercontent.com/19466700/223472320-03569264-c7c6-4070-b927-c8e4c03d4d41.jpg)
 
@@ -131,7 +131,7 @@ Please check <a href="https://github.com/fujichaaan/je_point_estimates_rm/blob/m
 
 <br>
 
-## 7. Inquires　📨
+## 7. Inquires 📨
 If you have any questions, please feel free to contact me 😎
 
 <b>Ryosuke FUJII, PhD.</b><br>
