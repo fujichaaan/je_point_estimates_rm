@@ -30,8 +30,6 @@ Breif literature review was performed in the articles published in the following
 
 The results are shown here:
 
-<br>
-
  <table>
     <tr>
       <th>Journals</th>
@@ -92,13 +90,11 @@ R codes for these plots are <a href="https://github.com/fujichaaan/je_point_esti
 In panel A (starting from 0), OR=2.0 seems to be four times bigger than OR=0.5, while panel B shows each bar graph start from 1.
 It is much better than the the 0-starting bar chars, but panel B is still problematic...
 
-<br>
 
 ### 2. Use logarithmic scale (B vs. C)
 In panel B, OR=2.0 seems to be twice bigger than OR=0.5, but panel C improve the magnitude of effect size.
 Therefore, although it can make fair comparison for OR=2.0 and OR=0.5 (different direction), it is unclear for statistical significance yet.
 
-<br>
 
 ### 3. Use point + error bars (C vs. D)
 In panel C, we can make fair comparison of effect sizes, however, it remains unclear whether error bar crosses 0 or not.
@@ -106,12 +102,32 @@ To improve this defect, the panel D shows better data visualization for relative
 
 <br>
 
-## 5. Examples for relative measures 🤼
+## 5. More practical examples 🤼
 Here we prepare codes for more practical examples for relative measures including point estimates and others.
-Please check <a href="https://github.com/fujichaaan/je_point_estimates_rm/blob/main/code_figures.R">here</a>
+Please check <a href="https://github.com/fujichaaan/je_point_estimates_rm/blob/main/code_practices.R">here</a>
+
+### 1. Point estimates for each variables in regression analyses
+
+![PRAC1](https://user-images.githubusercontent.com/19466700/223471763-e969ec6c-b6b4-43bc-94f9-d7a916058554.jpeg)
+
+
+### 2. Forest plots for summarizing previous studies
+
+![PRAC2](https://user-images.githubusercontent.com/19466700/223471819-af080dfc-0f26-44f7-b371-f4f994d2ae70.jpeg)
+
+
+### (3. Non-linear association between exposure and binary outcomes)
+
+![PRAC3](https://user-images.githubusercontent.com/19466700/223472320-03569264-c7c6-4070-b927-c8e4c03d4d41.jpg)
+
+
+<br>
 
 ## 6. References 📚
-
+1.	Szklo M, Nieto FJ. Epidemiology beyond the Basics. 2nd Edition, Jones and Bartlett Publishers, Boston. Sudbury, MA: Jones & Bartlett, 2007;368–70.
+2.	Hosseinpoor AR, Abouzahr C. Graphical presentation of relative measures of association. Lancet. 2010;375:1254.
+3.	Levine MA, El-Nahas AI, Asa B. Relative risk and odds ratio data are still portrayed with inappropriate scales in the medical literature. J Clin Epidemiol. 2010;63:1045–1047.
+4.	Kim J, Kaufman JS, Bang H. Graphing Ratio Measures on Forest Plot. J Am Coll Cardiol. 2018;71:585–586.
 
 <br>
 
