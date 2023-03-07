@@ -21,7 +21,7 @@ There are two main purposes in this letter:
 <br>
 
 ## 3. Literature review　 🖥
-Breif literature review was performed in the articles published in the following journals between April 2022 and March 2023.
+Breif literature review was performed in the original articles published in the following journals between April 2022 and March 2023.
 
 - The American Jounral of Epidemiology
 - The European Journal of Epidemiology
