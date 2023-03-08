@@ -1,5 +1,5 @@
 install.packages("tidyverse")
-library(tideyverse)
+library(tidyverse)
 
 # Data preparation --------------------------------------
 
@@ -8,7 +8,7 @@ table <- data.frame(ID    = c(1, 2),
                     RR    = c(0.5, 2.0),
                     Start = c(1.0, 1.0),
                     End   = c(0.5, 2.0),
-                    Upper = c(0.87, 2.8),
+                    Upper = c(0.8, 2.7),
                     Lower = c(0.35, 1.5))
 
 # Figure 1 Panel A --------------------------------------
@@ -59,7 +59,7 @@ ggplot(table) +
   labs(y = "Risk ratio (95% CI)") +
   scale_y_continuous(limits = c(0.1, 3),
                      breaks = c(0.25, 0.5, 1.0, 2.0, 3.0),
-                     trans = "log10") +
+                     trans = "log") +
   theme_bw() +
   theme(axis.title = element_text(size = 24),
         axis.text = element_text(size = 20),
@@ -79,7 +79,7 @@ ggplot(table) +
   labs(y = "Risk ratio (95% CI)") +
   scale_y_continuous(limits = c(0.1, 3),
                      breaks = c(0.25, 0.5, 1.0, 2.0, 3.0),
-                     trans = "log10") +
+                     trans = "log") +
   theme_bw() +
   theme(axis.title = element_text(size = 24),
         axis.text = element_text(size = 20),

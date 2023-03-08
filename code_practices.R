@@ -130,12 +130,19 @@ summary3 <- update(summary2)
 
 ## Pattern 1: Liner scale for non-linear association #####################
 
-table3 <- Predict(summary3, sbp, ref.zero = TRUE, fun = exp)
+table3 <- Predict(summary3, sbp, ref.zero = TRUE, fun = exp) |>
+  as_tibble()
 
-ggplot(table3, aes(sbp, yhat)) +
+ggplot(table3, aes(x = sbp, y = yhat)) +
   geom_hline(yintercept = 1, linetype = "dashed") +
-  scale_y_continuous(limits = c(0, 6),
-                     breaks = seq(0, 6, 1)) +
+  geom_line(color = "#191970",
+            linewidth = 1.1) +
+  geom_ribbon(aes(ymin = lower,
+                  ymax = upper),
+              alpha = 0.2,
+              fill = c("#4169e1")) +
+  scale_y_continuous(limits = c(0.1, 10),
+                     breaks = c(0.1, 0.2, 0.5, 1, 2, 5, 10), trans = "log") +
   scale_x_continuous(limits = c(90, 190),
                      breaks = seq(100, 180, 20)) +
   labs(x = "SBP, mmHg",
@@ -153,10 +160,19 @@ ggplot(table3, aes(sbp, yhat)) +
 
 ## Pattern 2: Logarithmic scale for non-linear association #####################
 
-table4 <- Predict(summary3, sbp, ref.zero = TRUE)
+table4 <- Predict(summary3, sbp, ref.zero = TRUE) |>
+  as_tibble()
 
-ggplot(table4, aes(sbp, yhat)) +
+ggplot(table4, aes(x = sbp, y = yhat)) +
   geom_hline(yintercept = 0, linetype = "dashed") +
+  geom_line(color = "#dc143c",
+            linewidth = 1.1) +
+  geom_ribbon(aes(ymin = lower,
+                  ymax = upper),
+              alpha = 0.2,
+              fill = c("#db7093")) +
+  scale_y_continuous(limits = c(-2, 2),
+                     breaks = seq(-2, 2, 1)) +
   scale_x_continuous(limits = c(90, 190),
                      breaks = seq(100, 180, 20)) +
   labs(x = "SBP, mmHg",
