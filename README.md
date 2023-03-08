@@ -1,7 +1,7 @@
-# je_point_estimates_rm
+# Fujii R. Visualization of relative measures of association: points and error bars with an appropriate axis scale. Journal of Epidemiology, 2023 (Submitted).
+
 This page is for summarizing code and figures for the letter published in the <i>Journal of Epidemiology</i> (Fujii R. 2023).
 
-# Fujii R. Visualization of relative measures of association: points and error bars with an appropriate axis scale. Journal of Epidemiology, 2023 (Submitted).
 
 (Insert of Image)
 <br>
@@ -84,7 +84,7 @@ The results are shown here:
 To show the point estimates for relative measures in association, there are three main key points to be considered as follows.
 R codes for these plots are <a href="https://github.com/fujichaaan/je_point_estimates_rm/blob/main/code_figures.R">here</a>
 
-![Figure1](https://user-images.githubusercontent.com/19466700/223476002-f9903390-2dc3-40d4-a96d-bbd6acd3a440.png)
+![Figure1](https://user-images.githubusercontent.com/19466700/223692748-e4871878-9ca1-4a65-a375-08d3634933b7.png)
 
 ### 1. Starting from 1 (A vs. B)
 In panel A (starting from 0), OR=2.0 seems to be four times bigger than OR=0.5, while panel B shows each bar graph start from 1.
@@ -116,10 +116,9 @@ Please check R codes <a href="https://github.com/fujichaaan/je_point_estimates_r
 ![PRAC2](https://user-images.githubusercontent.com/19466700/223471819-af080dfc-0f26-44f7-b371-f4f994d2ae70.jpeg)
 
 
-### (3. Non-linear association between exposure and binary outcomes) (using R "ggplot2" package)
+### (3. Non-linear association between exposure and binary outcome) (using R "ggplot2" package)
 
-![PRAC3](https://user-images.githubusercontent.com/19466700/223472320-03569264-c7c6-4070-b927-c8e4c03d4d41.jpg)
-
+![PRAC3](https://user-images.githubusercontent.com/19466700/223697190-42cfb1b5-8aaf-4ebc-b565-c22da554ca9a.jpg)
 
 <br>
 
