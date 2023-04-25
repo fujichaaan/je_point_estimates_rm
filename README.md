@@ -1,4 +1,4 @@
-# Fujii R. Visualization of relative measures of association: points and error bars with an appropriate axis scale. Journal of Epidemiology, 2023 (Submitted).
+# Fujii R. Visualization of relative measures of association: points and error bars with an appropriate axis scale. J Epidemiol, 2023 (Submitted).
 
 This page is for summarizing code and figures for the letter published in the <i>Journal of Epidemiology</i> (Fujii R. 2023).
 
@@ -21,7 +21,8 @@ There are two main purposes in this letter:
 <br>
 
 ## 3. Literature review　 🖥
-Breif literature review was performed in the original articles published in the following journals between April 2022 and March 2023.
+Breif literature review was performed in the original articles published in the following journals between April 2022 and March 2023<sup>a</sup>.<br>
+<sup>a</sup>If an article presented Figures in both appropriate and inappropriate ways, it was categorized as "inappropriate".
 
 - The American Jounral of Epidemiology
 - The European Journal of Epidemiology
@@ -33,50 +34,67 @@ The results are shown here:
  <table>
     <tr>
       <th>Journals</th>
-      <th>Axis starting from 0</th>
-      <th>Axis with an arithmetic scale</th>
-      <th>Bar + error bars</th>
-      <th>Undetermined</th>
-      <th>Appropriate</th>
-      <th>N of papers presenting figures</th>
+      <th>Inappropriate [Axis starting from 0]<sup>b</sup></th>
+      <th>Inappropriate [Axis with an arithmetic scale]<sup>b</sup></th>
+      <th>Inappropriate [Bar + error bars]<sup>b</sup></th>
+      <th>Inappropriate [Undetermined]<sup>b,c</sup></th>
+      <th>Inappropriate [Total]<sup>d</sup></th>
+      <th>Appropriate<sup>d</sup></th>
+      <th>N of papers presenting RR as figures<sup>d,e</sup></th>
+      <th>N of papers presenting RR as tables<sup>e</sup></th>
     </tr>
     <tr>
       <td>Am J Epi</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Int J Epi</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2</td>
+      <td>12</td>
+      <td>4</td>
+      <td>0</td>
+      <td>12 [4]<br>(48.0%)</td>
+      <td>13 [3]<br>(52.0%)</td>
+      <td>25 [7]</td>
+      <td>45</td>
     </tr>
     <tr>
       <td>Eur J Epi</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>0</td>
+      <td>13</td>
+      <td>0</td>
+      <td>0</td>
+      <td>13 [5]<br>(44.8%)</td>
+      <td>16 [4]<br>(55.2%)</td>
+      <td>29 [9]</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>Int J Epi</td>
+      <td>0</td>
+      <td>16</td>
+      <td>0</td>
+      <td>0</td>
+      <td>16 [5]<br>(42.1%)</td>
+      <td>22 [4]<br>(57.9%)</td>
+      <td>38 [9]</td>
+      <td>49</td>
     </tr>
     <tr>
       <td>J Epi</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>1</td>
+      <td>8</td>
+      <td>1</td>
+      <td>1</td>
+      <td>9 [3]<br>(90.0%)</td>
+      <td>1 [0]<br>10.0%</td>
+      <td>10 [3]</td>
+      <td>30</td>
     </tr>
   </table>
+
+<br>
+
+<sup>d</sup>If an article has multiple issues, each issue is counted up.<br>
+<sup>c</sup>"Undetermined" includes problems for strange scale for risk ratio.<br>
+<sup>d</sup>The number in square blackets indicates the number of papers using a linear scale axis for relative measures to show non-linear association between an exposure variable and binary/time-to-event outcomes.<br>
+<sup>e</sup>If an article reported both Table and Figure, each type is counted up.<br>
 
 <br>
 
@@ -122,7 +140,15 @@ Please check R codes <a href="https://github.com/fujichaaan/je_point_estimates_r
 
 <br>
 
-## 6. References 📚
+
+## 6. Final caution ⚠
+
+Please keep in your mind that there is a trade-off between visualizing the results in Figures and showing them as Tables, in other words, it is often impossible to correctly reproduce numerical results from Figures.
+
+<br>
+
+
+## 7. References 📚
 1.	Szklo M, Nieto FJ. Epidemiology beyond the Basics. 2nd Edition, Jones and Bartlett Publishers, Boston. Sudbury, MA: Jones & Bartlett, 2007;368–70.
 2.	Hosseinpoor AR, Abouzahr C. Graphical presentation of relative measures of association. Lancet. 2010;375:1254.
 3.	Levine MA, El-Nahas AI, Asa B. Relative risk and odds ratio data are still portrayed with inappropriate scales in the medical literature. J Clin Epidemiol. 2010;63:1045–1047.
@@ -130,7 +156,8 @@ Please check R codes <a href="https://github.com/fujichaaan/je_point_estimates_r
 
 <br>
 
-## 7. Inquires 📨
+
+## 8. Inquires 📨
 If you have any questions, please feel free to contact me 😎
 
 <b>Ryosuke FUJII, PhD.</b><br>
