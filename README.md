@@ -21,8 +21,7 @@ There are two main purposes in this letter:
 <br>
 
 ## 3. Literature review　 🖥
-Breif literature review was performed in the original articles published in the following journals between April 2022 and March 2023<sup>a</sup>.<br>
-<sup>a</sup>If an article presented Figures in both appropriate and inappropriate ways, it was categorized as "inappropriate".
+Breif literature review was performed in the original articles published in the following journals between April 2022 and March 2023<sup>a,b</sup>.<br>
 
 - The American Jounral of Epidemiology
 - The European Journal of Epidemiology
@@ -34,24 +33,22 @@ The results are shown here:
  <table>
     <tr>
       <th>Journals</th>
-      <th>Inappropriate [Axis starting from 0]<sup>b</sup></th>
-      <th>Inappropriate [Axis with an arithmetic scale]<sup>b</sup></th>
-      <th>Inappropriate [Bar + error bars]<sup>b</sup></th>
-      <th>Inappropriate [Undetermined]<sup>b,c</sup></th>
-      <th>Inappropriate [Total]<sup>d</sup></th>
-      <th>Appropriate<sup>d</sup></th>
-      <th>N of papers presenting RR as figures<sup>d,e</sup></th>
+      <th>Inappropriate [Axis starting from 0]<sup>c</sup></th>
+      <th>Inappropriate [Axis with an arithmetic scale]<sup>c</sup></th>
+      <th>Inappropriate [Undetermined]<sup>c,d</sup></th>
+      <th>Inappropriate [Total]</th>
+      <th>Appropriate</th>
+      <th>N of papers presenting RR as figures<sup>e</sup></th>
       <th>N of papers presenting RR as tables<sup>e</sup></th>
     </tr>
     <tr>
       <td>Am J Epi</td>
       <td>2</td>
       <td>12</td>
-      <td>4</td>
       <td>0</td>
-      <td>12 [4]<br>(48.0%)</td>
-      <td>13 [3]<br>(52.0%)</td>
-      <td>25 [7]</td>
+      <td>12<br>(48.0%)</td>
+      <td>13<br>(52.0%)</td>
+      <td>25</td>
       <td>45</td>
     </tr>
     <tr>
@@ -59,10 +56,9 @@ The results are shown here:
       <td>0</td>
       <td>13</td>
       <td>0</td>
-      <td>0</td>
-      <td>13 [5]<br>(44.8%)</td>
-      <td>16 [4]<br>(55.2%)</td>
-      <td>29 [9]</td>
+      <td>13<br>(44.8%)</td>
+      <td>16<br>(55.2%)</td>
+      <td>29</td>
       <td>27</td>
     </tr>
     <tr>
@@ -70,10 +66,9 @@ The results are shown here:
       <td>0</td>
       <td>16</td>
       <td>0</td>
-      <td>0</td>
-      <td>16 [5]<br>(42.1%)</td>
-      <td>22 [4]<br>(57.9%)</td>
-      <td>38 [9]</td>
+      <td>16<br>(42.1%)</td>
+      <td>22<br>(57.9%)</td>
+      <td>38</td>
       <td>49</td>
     </tr>
     <tr>
@@ -81,19 +76,19 @@ The results are shown here:
       <td>1</td>
       <td>8</td>
       <td>1</td>
-      <td>1</td>
-      <td>9 [3]<br>(90.0%)</td>
-      <td>1 [0]<br>10.0%</td>
-      <td>10 [3]</td>
+      <td>9<br>(90.0%)</td>
+      <td>1<br>(10.0%)</td>
+      <td>10</td>
       <td>30</td>
     </tr>
   </table>
 
 <br>
 
-<sup>d</sup>If an article has multiple issues, each issue is counted up.<br>
-<sup>c</sup>"Undetermined" includes problems for strange scale for risk ratio.<br>
-<sup>d</sup>The number in square blackets indicates the number of papers using a linear scale axis for relative measures to show non-linear association between an exposure variable and binary/time-to-event outcomes.<br>
+<sup>a</sup>If an article presented Figures in both appropriate and inappropriate ways, it was categorized as "inappropriate".<br>
+<sup>b</sup>In this literature review, there was no example like Figure 1C (non-transparent bar + error bars with a logarithmic scale).<br>
+<sup>c</sup>If an article has multiple issues, each issue is counted up.<br>
+<sup>d</sup>"Undetermined" includes problems for strange scale for risk ratio.<br>
 <sup>e</sup>If an article reported both Table and Figure, each type is counted up.<br>
 
 <br>
@@ -115,8 +110,9 @@ Therefore, although it can make fair comparison for OR=2.0 and OR=0.5 (different
 
 
 ### 3. Use point + error bars (C vs. D)
-In panel C, we can make fair comparison of effect sizes, however, it remains unclear whether error bar crosses 0 or not.
-To improve this defect, the panel D shows better data visualization for relative measures to clearly shows confidential intervals.
+In panel C, we can make fair comparison of effect sizes, however, it remains unclear the range of confidentce intervals.
+To improve this point, the panel D shows better data visualization for relative measures to clearly shows confidential intervals.
+(Another solution would make bars transparent)
 
 <br>
 
