@@ -1,4 +1,4 @@
-# Fujii R. Visualization of relative measures of association: points and error bars with an appropriate axis scale. J Epidemiol, 2023 (Submitted).
+# Fujii R. Visualization of relative measures of association: points and error bars with an appropriate axis scale. J Epidemiol, 2023.
 
 This page is for summarizing code and figures for the letter published in the <i>Journal of Epidemiology</i> (Fujii R. 2023).
 
